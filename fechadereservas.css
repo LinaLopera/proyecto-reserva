@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(img/tacos.jpg) no-repeat ;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: #b80f22;
+}
+
+
+.fecha-reservas {
+	width: 600
+	px;
+	height: 450px;
+	background: black;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.fecha-reservas .avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left: 270px;
+	
+
+}
+
+.boton {
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 3px;
+	text-align: center;
+	border: 2px;
+	background-color: #b80f22;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	padding-left: 3px;
+
+}
+.boton:hover {
+	color: black;
+	background-color: #F58585;
+}
+
+
+.table {
+	width: 100%;
+	border: 1px solid #fff;
+
+}
+
+.th,td{
+	width: 25%;
+	text-align: center;
+	vertical-align: text-top;
+	border: 1px solid #fff;
+	border-spacing: 0;
+	border-collapse: collapse;
+	padding: 0.3em;
+	caption-side: bottom;
+	background: grey;
+
+
+}
+
+.caption{
+	padding: 0.3em;
+}
